@@ -2,7 +2,7 @@
 
 ![Screenshot Todo App](./App%20Todo%20Design.png)
 
-🔗 **Watch the project live:** [Live Demo](https://your-demo-link.com)
+🔗 **Watch the project live:** [Live Demo](https://fadi-yaj.github.io/Todo-App/)
 
 ## 📖 About the project
 
