@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #eee;
+  color: #222;
+  height: 100vh;
+}
+.container {
+  max-width: 90%;
+  width: 90vw;
+  background-color: #adacac;
+  padding: 20px;
+  margin: auto;
+  border-radius: 15px;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.input-container .text-input {
+  width: 60%;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+.input-container .add-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  transition:
+    background-color ease-in-out 0.3s,
+    color ease-in-out 0.3s;
+}
+.input-container .add-btn:hover {
+  background-color: aqua;
+  color: #222;
+}
+.input-container .add-btn:active {
+  transform: scale(0.8);
+}
+.task-list {
+  display: flex;
+  align-self: center;
+  flex-flow: column wrap;
+  gap: 20px;
+  width: 90%;
+  margin: 20px;
+}
+
+.task-list .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rebeccapurple;
+  color: #eee;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+}
+.task .btn-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn-actions .del-item {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  transition:
+    background-color ease-in-out 0.3s,
+    color ease-in-out 0.3s;
+}
+.btn-actions .del-item:hover {
+  background-color: red;
+  color: #fafafa;
+}
+.btn-actions .del-item:active {
+  transform: scale(0.8);
+}
+.btn-actions .done-item {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  transition:
+    background-color ease-in-out 0.3s,
+    color ease-in-out 0.3s;
+}
+.btn-actions .done-item:hover {
+  background-color: green;
+  color: #fafafa;
+}
+.btn-actions .done-item:active {
+  transform: scale(0.8);
+}
